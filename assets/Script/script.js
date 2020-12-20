@@ -11,3 +11,7 @@ Navbtn.onclick = function(){
         menuBtn.src="./assets/Barber_Shop_img/menu.png"
     }
 }
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
